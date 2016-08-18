@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kliś - to jest strona</title>
+	<meta charset="utf-8">
+  <script src="js/jquery-3.1.0.js"></script>
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/lightbox.css">
+
+
+  <!-- Slajder styles & scripts -->
+  <link rel="stylesheet" href="superslides/superslides.css">
+
+</head>
+<body>
+	<div id="slider-wrapper">
+	  <div id="slides">
+    	<div class="slides-container">
+      	<img src="img/slajd1.jpg" >
+      	<img src="img/slajd2.jpg" >
+      	<img src="img/slajd3.jpg" >
+    	</div>
+    	<nav class="main-menu">
+    		<div class="logo"><a href="index.html"><img src="img/prodium_l.png" height="100px"></a></div>
+				<ul class="menu-list">
+					<a href="#"><li class="menu-button">Home</li></a>
+					<a href="#"><li class="menu-button">O mnie</li></a>
+					<a href="#"><li class="menu-button">Portfolio</li></a>
+					<a href="#"><li class="menu-button">Użyte</li></a>
+					<a href="#"><li class="menu-button">Kontakt</li></a>
+				</ul>
+			</nav> 
+	    <nav class="slides-navigation">
+	      <a href="#" class="next"><img src="img/forward.png"></a>
+	      <a href="#" class="prev"><img src="img/back.png"></a>
+	    </nav>
+  	</div>
+
+	
+	  <script>
+	    $(function() {
+	      $('#slides').superslides({
+	        hashchange: true,
+	        play: 1500
+	      });
+
+	      $('#slides').on('mouseenter', function() {
+	        $(this).superslides('start');
+	        console.log('Started')
+	      });
+	      $('#slides').on('mouseleave', function() {
+	        $(this).superslides('stop');
+	        console.log('Stoped')
+	      });
+	    });
+	  </script> 
+	</div>
+
+<!-- _____________________ CONTENT ________________ -->
+<!-- _____________________ ARTICLES ________________ -->
+
+		<div id="content-wrapper">
+			<div>
+				<section class="four-art clearfix">
+					<article class="icons-art">
+						<header>
+							<i class="four-art-icons fa fa-heart-o fa-2x"></i>
+							<h4 class="four-art-header">Ulubione</h4>
+						</header>
+						<p class="four-art-p">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
+					</article>
+					<article class="icons-art">
+						<header>
+							<i class="four-art-icons fa fa-sliders fa-2x" aria-hidden="true"></i>
+							<h4 class="four-art-header">Ustawienia</h4>
+						</header>
+						<p class="four-art-p">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
+					</article>
+					<article class="icons-art">
+						<header>
+							<i class="four-art-icons fa fa-folder-o fa-2x" aria-hidden="true"></i>
+							<h4 class="four-art-header">Pliki</h4>
+						</header>
+						<p class="four-art-p">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
+					</article>
+					<article class="icons-art">
+						<header>
+							<i class="four-art-icons fa fa-battery-three-quarters fa-2x" aria-hidden="true"></i>
+							<h4 class="four-art-header">Energia</h4>
+						</header>
+						<p class="four-art-p">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
+					</article>
+					<article class="icons-art">
+						<header>
+							<i class="four-art-icons fa fa-bell-o fa-2x" aria-hidden="true"></i>
+							<h4 class="four-art-header">Powiadomienia</h4>
+						</header>
+						<p class="four-art-p">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
+					</article>
+					<article class="icons-art">
+						<header>
+							<i class="four-art-icons fa fa-flag-o fa-2x" aria-hidden="true"></i>
+							<h4 class="four-art-header">Ważne</h4>
+						</header>
+						<p class="four-art-p">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
+					</article>
+					<article class="icons-art">
+						<header>
+							<i class="four-art-icons fa fa-code fa-2x" aria-hidden="true"></i>
+							<h4 class="four-art-header">Kod źródłowy</h4>
+						</header>
+						<p class="four-art-p">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
+					</article>
+					<article class="icons-art">
+						<header>
+							<i class="four-art-icons fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+							<h4 class="four-art-header">Kontakt</h4>
+						</header>
+						<p class="four-art-p">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
+					</article>
+				</section>
+				<div class="contener-space"></div>
+
+<!-- _____________________ ABOUT US - PHOTO + TEXT ________________ -->
+				
+				<section class="about-us clearfix">
+					<article class="about-us-photo">
+						<img class="about-us-img" src="img/about-me.jpg">
+					</article>
+					<article class="about-us-text">
+						<h3>Kilka ciekawostek o mnie</h3>
+						</br></br>
+						<p class="first-text">Dorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker</p></br>
+						<p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker</p>
+					</article>
+					<div class="about-us-text clearfix">
+						<div class="about-us-column">
+							<i class="two-columns fa fa-sliders fa-1x" aria-hidden="true"></i>
+							<h5 class="two-columns-heading">Ustawienia</h5>
+							<div class="little-space"></div>
+							<p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
+						</div>
+						<div class="about-us-column">
+							<i class="two-columns fa fa-sliders fa-1x" aria-hidden="true"></i>
+							<h5 class="two-columns-heading">Ustawienia</h5>
+							<div class="little-space"></div>
+							<p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
+						</div>
+					</div>
+				</section>
+				<div class="contener-space"></div>
+
+
+<!-- _____________________ ACCORIONS BACKGROUD ________________ -->
+
+				<section>
+					<button onclick="changeClass1()" class="accordion-background" id="acc-1">
+						<h4>Pierwszy nagłówek</h4>
+						<article class="accordion-hidden" id="aacc-1">
+							<div class="art-space"></div>
+							<p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker</p>
+						</article>
+					</button>
+					<button onclick="changeClass2()" class="accordion-background" id="acc-2">
+						<h4 class="white">Drugi nagłówek</h4>
+						<article class="accordion-show" id="aacc-2">
+							<div class="art-space"></div>
+							<p class="white">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker</p>
+						</article>
+					</button>
+					<button onclick="changeClass3()" class="accordion-background" id="acc-3">
+						<h4>Trzeci nagłówek</h4>
+						<article class="accordion-hidden" id="aacc-3">
+							<div class="art-space"></div>
+							<p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker</p>
+						</article>
+					</button>
+				</section>
+				<div class="contener-space"></div>
+
+
+<!-- ______________________ GALLERY ____________________________ -->
+
+				<section class="fw-gallery clearfix">
+					<ul class="cbp-rfgrid">
+						<li>
+							<a href="img/gallery/g1.jpg" data-lightbox="example-set">
+								<div class="gallery-square" id="g1"></div>
+								<div class="fw-gallery-hover">
+									<div class="little-space-right"></div>
+									<h3>Felis catus</h3>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="img/gallery/g2.jpg" data-lightbox="example-set">
+								<div class="gallery-square" id="g2"></div>
+								<div class="fw-gallery-hover">
+									<div class="little-space-right"></div>
+									<h3>Felis catus</h3>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="img/gallery/g3.jpg" data-lightbox="example-set">
+								<div class="gallery-square" id="g3"></div>
+								<div class="fw-gallery-hover">
+									<div class="little-space-right"></div>
+									<h3>Felis catus</h3>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="img/gallery/g4.jpg" data-lightbox="example-set">
+								<div class="gallery-square" id="g4"></div>
+								<div class="fw-gallery-hover">
+									<div class="little-space-right"></div>
+									<h3>Felis catus</h3>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="img/gallery/g5.jpg" data-lightbox="example-set">
+								<div class="gallery-square" id="g5"></div>
+								<div class="fw-gallery-hover">
+									<div class="little-space-right"></div>
+									<h3>Felis catus</h3>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="img/gallery/g6.jpg" data-lightbox="example-set">
+								<div class="gallery-square" id="g6"></div>
+								<div class="fw-gallery-hover">
+									<div class="little-space-right"></div>
+									<h3>Felis catus</h3>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="img/gallery/g7.jpg" data-lightbox="example-set">
+								<div class="gallery-square" id="g7"></div>
+								<div class="fw-gallery-hover">
+									<div class="little-space-right"></div>
+									<h3>Felis catus</h3>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="img/gallery/g8.jpg" data-lightbox="example-set">
+								<div class="gallery-square" id="g8"></div>
+								<div class="fw-gallery-hover">
+									<div class="little-space-right"></div>
+									<h3>Felis catus</h3>
+								</div>
+							</a>
+						</li>
+
+					</ul>
+					
+				</section>
+
+
+					<div class="contener-space"></div>
+
+
+
+
+
+
+
+
+
+
+<!--
+				<section class="about-us clearfix">
+					<article class="about-us-text clearfix">
+						<div class="acc-type2 clearfix">
+<!--						<div class="kwadrat"></div> -->
+<!--							<i class="fa fa-angle-down left-bar acc-type2-ico" aria-hidden="true"></i> 
+							<h5 class="acc-type2-text">Coś tam coś tam</h5>
+							<div class="acc-type2-more">
+								<img src="img/about-me.jpg" class="left-bar" width="10%" class="">
+								<p class="acc-type2-text">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
+							</div>						
+						</div>
+						<button></button>
+						<button></button>
+					</article>
+					<article class="about-us-photo">
+						<img class="about-us-img" src="img/about-me.jpg">
+					</article>
+				</section>
+			
+-->
+
+
+
+
+
+
+
+
+
+
+<!--  KONTAKT  -->
+
+
+
+
+
+				<!-- footer -->
+			<footer class="ft-main clearfix" id="stopka">
+				<div class="socialmedia">
+
+				</div>
+				<div>
+					<div class="ft">
+						<img src="img/prodium_l.png" class="ft-logo">
+						<div class="little-space"></div>
+						<p class="ft-text">Firma prodium zajmuje się tworzeniem stron i sklepów internetowych, w oparciu o szablony. Firma wciąż rozwija swoje usługi. Obecnie trwają przygotowania do wprowadzenia usługi stron i sklepów dedykowaną i robioną od podstaw szatą graficzną. </p></div>
+					<div class="ft">
+						<h5 class="ft-header">Zakładki</h5>
+						<div class="little-space"></div>
+						<ul class="ft-menu">
+							<a href="#slides"><li>Home</li></a>
+							<a href="#stopka"><li>O mnie</li></a>
+							<a href="#stopka"><li>Portfolio</li></a>
+							<a href="#stopka"><li>Użyte</li></a>
+							<a href="#stopka"><li>Kontakt</li></a>
+						</ul>	
+					</div>
+					<div class="ft">
+						<h5 class="ft-header">Galeria</h5>
+						<div class="little-space"></div>
+							<span class="ft-gallery"><a href="#"><img src="img/acc-bg.jpg" width="50px"></a></span>
+							<span class="ft-gallery"><a href="#"><img src="img/acc-bg.jpg" width="50px"></a></span>
+							<span class="ft-gallery"><a href="#"><img src="img/acc-bg.jpg" width="50px"></a></span>
+							<span class="ft-gallery"><a href="#"><img src="img/acc-bg.jpg" width="50px"></a></span>
+							<span class="ft-gallery"><a href="#"><img src="img/acc-bg.jpg" width="50px"></a></span>
+							<span class="ft-gallery"><a href="#"><img src="img/acc-bg.jpg" width="50px"></a></span>
+							<span class="ft-gallery"><a href="#"><img src="img/acc-bg.jpg" width="50px"></a></span>
+							<span class="ft-gallery"><a href="#"><img src="img/acc-bg.jpg" width="50px"></a></span>
+							<span class="ft-gallery"><a href="#"><img src="img/acc-bg.jpg" width="50px"></a></span>
+					</div>
+					<div class="ft">
+						<h5 class="ft-header">Kontakt</h5>
+						<div class="little-space"></div>
+						<i class="fa fa-phone ft-contact" aria-hidden="true"></i><p class="ft-text ft-icons">+48 791 727 428</p><br>
+						<i class="fa fa-envelope-o ft-contact" aria-hidden="true"></i><p class="ft-text ft-icons"> mateusz.klis.krk@gmail.com</p>
+						<div class="little-space"></div>
+						<p class="ft-text">Treść strony Treść stronyTreść stronyTreść strony</p>
+					</div>
+					<div class="ft-bottom-bar"></div>
+				</div>
+
+			</footer>
+		</div>
+
+	
+
+	</div>
+
+
+<!-- Lightbox scipt -->
+<script src="js/lightbox-plus-jquery.js"></script>
+
+<!-- Slideshow scripts -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.animate-enhanced.min.js"></script>
+<script src="superslides/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+
+</html>
