@@ -217,20 +217,29 @@ p.first-text:first-letter {
 }
 
 #acc-1{
-//	background-image: url(../img/acc-bg.jpg);
+	background-image: url(../img/acc-bg4.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 #acc-2{
-	background-image: url(../img/acc-bg.jpg);
-	background-color: rgba(0,0,0,0.7);
+	background-image: url(../img/acc-bg2.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 #acc-3{
-
+	background-image: url(../img/acc-bg3.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 .white{
 	color: white;
+}
+
+.dark-bg{
+	background-color: rgba(0,0,0,0.5);
 }
 
 /*------------------ ABOUT US - ACCORDIONS + PHOTO -------------------- */
