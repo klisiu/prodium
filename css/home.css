@@ -250,8 +250,62 @@ p.first-text:first-letter {
 	background-color: rgba(0,0,0,0.5);
 }
 
+/*------------------ PROGRES BAR -------------------------------------- */
+
+.progres-container{
+	width: 100%;
+	background-color: #f1f1f1;
+	position: relative;
+	height: 0.5em;
+	float: left;
+}
+
+.progres-bar{
+	background-color: #D49E1A;
+	height: 100%;
+}
+
+.left-heading{
+	display: inline-block;
+	float: left;
+	margin: 4% 0% 2% 0%;
+}
+
+.right-heading{
+	display: inline-block;
+	float: right;
+	margin: 2% 0%;
+}
+
+#pbar1{
+	width: 64%;
+}
+
+#pbar2{
+	width: 80%;
+}
+
+#pbar3{
+	width: 72%;
+}
+
+#pbar4{
+	width: 44%;
+}
+
+#pbar5{
+	width: 50%;
+}
+
+#pbar6{
+	width: 92%;
+}
+
 /*------------------ ABOUT US - ACCORDIONS + PHOTO -------------------- */
 
+.about-us{
+	padding: 0% 2%;
+}
 
 .acc-type2{
 	width: 100%;
