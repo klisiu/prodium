@@ -438,6 +438,43 @@ p.first-text:first-letter {
 	}
 }
 
+/* -------------- Contact --------------------*/
+.center{
+	margin: auto;
+	text-align: center;
+}
+
+.quick-form{
+	padding: 0% 10% 0% 10%;
+}
+
+.quick-form-input{
+	border-color: solid 1px #332C24;
+	width: 100%;
+	padding-bottom: 2%;
+	margin: 1% 5% 1% 5%; 
+	font-size: 20px;
+	padding-top: 2%;
+}
+
+.message{
+//	width: 100%;
+//	margin: 1% 5% 1% 5%; 
+	padding-bottom: 20%;
+}
+
+.send{
+	width: 100%;
+	margin: 1% 5% 1% 5%;
+	padding-bottom: 2%;
+	background-color: #332C24;
+	border: none;
+	color: white;
+	font-size: 24px;
+	padding-top: 2%;
+	text-transform: uppercase;
+
+}
 
 
 
