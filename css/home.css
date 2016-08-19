@@ -161,7 +161,7 @@ a{
 .about-us-photo{
 	width: 50%;
 	float: left;
-	padding: 10px 10px 10px 10px;
+	padding: 10px 10px 0px 10px;
 }
 
 .about-us-img{
@@ -171,7 +171,7 @@ a{
 
 .about-us-text{
 	width: 50%;
-	float: left;
+	float: right;
 	padding: 10px 10px 10px 10px;
 }
 
@@ -301,46 +301,6 @@ p.first-text:first-letter {
 	width: 92%;
 }
 
-/*------------------ ABOUT US - ACCORDIONS + PHOTO -------------------- */
-
-.about-us{
-	padding: 0% 2%;
-}
-
-.acc-type2{
-	width: 100%;
-}
-
-.left-bar{
-	width: 10%;
-	float: left;
-	position: relative;
-}
-
-.left-bar:after{
-	content: "";
-	display: block;
-	padding-bottom: 100%;
-
-}
-
-.acc-type2-text{
-	width: 90%;
-	float: left;
-	padding: 5px;
-}
-
-.acc-type2-more{
-	width: 100%;
-	float: left;
-}
-
-.acc-type2-ico{
-	color: white;
-	background-color: #332C24;
-//	padding: 15px 15px 15px 15px;
-}
-
 
 /* ------------- GALLERY ----------------- */
 #g1{
@@ -382,7 +342,7 @@ p.first-text:first-letter {
 }
 
 .cbp-rfgrid {
-	margin: 35px 0 0 0;
+	margin: 0 0 0 0;
 	padding: 0;
 	list-style: none;
 	position: relative;
@@ -451,47 +411,6 @@ p.first-text:first-letter {
 
 }
 
-/* ----------- RWD ---------------*/
-
-
-@media screen and (max-width: 945px) {
-	.cbp-rfgrid li {
-		width: 25%; /* Fallback */
-		width: -webkit-calc(100% / 4);
-		width: calc(100% / 4);
-	}
-}
-
-@media screen and (max-width: 660px) {
-	.cbp-rfgrid li {
-		width: 33.3333333%; /* Fallback */
-		width: -webkit-calc(100% / 3);
-		width: calc(100% / 3);
-	}
-}
-
-@media screen and (max-width: 660px) {
-	.cbp-rfgrid li {
-		width: 33.3333333%; /* Fallback */
-		width: -webkit-calc(100% / 3);
-		width: calc(100% / 3);
-	}
-}
-
-@media screen and (max-width: 400px) {
-	.cbp-rfgrid li {
-		width: 50%; /* Fallback */
-		width: -webkit-calc(100% / 2);
-		width: calc(100% / 2);
-	}
-}
-
-@media screen and (max-width: 300px) {
-	.cbp-rfgrid li {
-		width: 100%;
-	}
-}
-
 /* -------------- Contact --------------------*/
 .center{
 	margin: auto;
@@ -505,10 +424,11 @@ p.first-text:first-letter {
 .quick-form-input{
 	border: solid 1px #332C24;
 	width: 100%;
-	padding-bottom: 2%;
-	margin: 1% 5% 1% 5%; 
 	font-size: 20px;
-	padding-top: 2%;
+	padding: 2% 1% 2%;
+	margin: 1% 5% 1% 5%; 
+	
+
 }
 
 .message{
@@ -526,6 +446,12 @@ p.first-text:first-letter {
 	font-size: 24px;
 	padding-top: 2%;
 	text-transform: uppercase;
+}
+
+.send:hover{
+	background-color: #D49E1A;
+	transition: 0.4s;
+	cursor: pointer;
 
 }
 

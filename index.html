@@ -8,9 +8,9 @@
   <script src="js/main.js"></script>
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/home.css">
+  <link rel="stylesheet" type="text/css" href="css/mobile.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/lightbox.css">
-
 
   <!-- Slajder styles & scripts -->
   <link rel="stylesheet" href="superslides/superslides.css">
@@ -27,11 +27,11 @@
     	<nav class="main-menu">
     		<div class="logo"><a href="index.html"><img src="img/prodium_l.png" height="100px"></a></div>
 				<ul class="menu-list">
-					<a href="#"><li class="menu-button">Home</li></a>
-					<a href="#"><li class="menu-button">O mnie</li></a>
-					<a href="#"><li class="menu-button">Portfolio</li></a>
-					<a href="#"><li class="menu-button">Użyte</li></a>
-					<a href="#"><li class="menu-button">Kontakt</li></a>
+					<a href="#slides"><li class="menu-button">Home</li></a>
+					<a href="#o-mnie"><li class="menu-button">O mnie</li></a>
+					<a href="#portfolio"><li class="menu-button">Portfolio</li></a>
+					<a href="#galeria"><li class="menu-button">Galeria</li></a>
+					<a href="#kontakt"><li class="menu-button">Kontakt</li></a>
 				</ul>
 			</nav> 
 	    <nav class="slides-navigation">
@@ -88,15 +88,15 @@
 			</article>
 			<article class="icons-art">
 				<header>
-					<i class="four-art-icons fa fa-battery-three-quarters fa-2x" aria-hidden="true"></i>
-					<h4 class="four-art-header">Energia</h4>
+					<i class="four-art-icons fa fa-book fa-2x" aria-hidden="true"></i>
+					<h4 class="four-art-header">Nauka</h4>
 				</header>
 				<p class="four-art-p">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
 			</article>
 			<article class="icons-art">
 				<header>
 					<i class="four-art-icons fa fa-bell-o fa-2x" aria-hidden="true"></i>
-					<h4 class="four-art-header">Powiadomienia</h4>
+					<h4 class="four-art-header">Alerty</h4>
 				</header>
 				<p class="four-art-p">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
 			</article>
@@ -110,7 +110,7 @@
 			<article class="icons-art">
 				<header>
 					<i class="four-art-icons fa fa-code fa-2x" aria-hidden="true"></i>
-					<h4 class="four-art-header">Kod źródłowy</h4>
+					<h4 class="four-art-header">Kod</h4>
 				</header>
 				<p class="four-art-p">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
 			</article>
@@ -126,7 +126,7 @@
 
 <!-- __________________ ABOUT US - PHOTO + TEXT ________________ -->
 		
-		<section class="about-us clearfix">
+		<section class="about-us clearfix" id="o-mnie">
 			<article class="about-us-photo">
 				<img class="about-us-img" src="img/about-me.jpg">
 			</article>
@@ -156,7 +156,7 @@
 
 	<!-- _____________________ ACCORIONS BACKGROUD ________________ -->
 
-		<section>
+		<section id="portfolio">
 			<button onclick="changeClass1()" class="accordion-background" id="acc-1">
 				<h4 class="white">Pierwszy nagłówek</h4>
 				<article class="accordion-hidden" id="aacc-1">
@@ -180,6 +180,7 @@
 			</button>
 		</section>
 		<div class="contener-space"></div>
+
 <!-- ______________________ PROGRES BAR ________________________ -->
 		<section class="about-us clearfix">
 			<article class="about-us-photo">
@@ -232,7 +233,7 @@
 
 <!-- ______________________ GALLERY ____________________________ -->
 
-		<section class="fw-gallery clearfix">
+		<section class="fw-gallery clearfix" id="galeria">
 			<ul class="cbp-rfgrid">
 				<li>
 					<a href="img/gallery/g1.jpg" data-lightbox="example-set">
@@ -313,7 +314,7 @@
 		<div class="contener-space"></div>
 
 	<!-- ___________________ CONTACT _______________  -->
-		<section class="about-us clearfix">
+		<section class="about-us clearfix" id="kontakt">
 			<article class="about-us-photo center">
 				<form class="quick-form">
 					<h3>Formularz kontaktowy</h3>
@@ -381,7 +382,7 @@
 					<i class="fa fa-phone ft-contact" aria-hidden="true"></i><p class="ft-text ft-icons">+48 791 727 428</p><br>
 					<i class="fa fa-envelope-o ft-contact" aria-hidden="true"></i><p class="ft-text ft-icons"> mateusz.klis.krk@gmail.com</p>
 					<div class="little-space"></div>
-					<p class="ft-text">Treść strony Treść stronyTreść stronyTreść strony</p>
+					<p class="ft-text">Lorem ipsum dolorem, tekst wypełniacz, który ponoć nie odwraca uwagi.</p>
 				</div>
 				<div class="ft-bottom-bar"></div>
 			</div>
