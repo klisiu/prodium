@@ -449,7 +449,7 @@ p.first-text:first-letter {
 }
 
 .quick-form-input{
-	border-color: solid 1px #332C24;
+	border: solid 1px #332C24;
 	width: 100%;
 	padding-bottom: 2%;
 	margin: 1% 5% 1% 5%; 
@@ -458,9 +458,8 @@ p.first-text:first-letter {
 }
 
 .message{
-//	width: 100%;
-//	margin: 1% 5% 1% 5%; 
-	padding-bottom: 20%;
+	height: 100px;
+
 }
 
 .send{
@@ -476,7 +475,21 @@ p.first-text:first-letter {
 
 }
 
+.quick-form-heading{
+	display: inline;
+}
 
+.quick-form-ico{
+	color: #332C24;
+	font-size: 2em;
+}
+
+.quick-form-space{
+	width: 10%;
+	margin: 30px auto 30px auto;
+	border: 2px solid #D49E1A;
+    height: 4px;
+}
 
 
 /* --------------- Footer --------------------*/
