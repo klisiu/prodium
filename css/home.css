@@ -109,6 +109,25 @@ a{
 //	box-shadow: 0px 54px 26px -28px rgba(0,0,0,0.75);
 }
 
+.click-to-down{
+	position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate( -50%, 0%);
+    z-index: 3;
+}
+.click-to-down-text{
+	font-size: 24px;
+	font-family: Arial;
+	border: 1px solid white;
+	padding: 2px 2px 2px 2px;
+}
+
+.click-to-down-arrow{
+	margin: auto;
+    display: block;
+}
+
 .clearfix{
 	overflow: auto;
 }
