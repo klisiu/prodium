@@ -53,13 +53,14 @@ a{
 
 .main-menu{
 	margin: auto;
-    position: absolute;
+    position: fixed;
     z-index: 3;
     top: 0%;
     width: 100%;
     padding: 0% 10% 0% 10%;
-    background: rgba(31, 27, 27, 0.6);
+    background: rgba(31, 27, 27, 0.8);
     height: 100px;
+    z-index: 4;
 }
 .logo{
 	display: inline-block;
@@ -67,7 +68,16 @@ a{
     position: relative;
     transform: translate( 0%, -50%);
     top: 50%;
+    width: 25%;
+}
 
+#logo{
+	width: 100%;
+}
+
+.menu-mobile{
+	display: none;
+	cursor: pointer;
 }
 
 .menu-list{
@@ -79,8 +89,8 @@ a{
 	transform: translate( 0%, -50%);
 	top: 50%;
 	font-size: 24px;
-
 }
+
 
 .menu-button{
 	border: 1px white solid;
@@ -232,7 +242,8 @@ p.first-text:first-letter {
 	width: 100%;
 	padding: 40px 10px 40px 10px;
 	cursor: pointer;
-	transition: 0.4s;
+    background-size: cover;
+    background-position: center;
 }
 
 .accordion-show{
@@ -245,20 +256,14 @@ p.first-text:first-letter {
 
 #acc-1{
 	background-image: url(../img/acc-bg4.jpg);
-	background-size: cover;
-	background-position: center;
 }
 
 #acc-2{
 	background-image: url(../img/acc-bg2.jpg);
-	background-size: cover;
-	background-position: center;
 }
 
 #acc-3{
 	background-image: url(../img/acc-bg3.jpg);
-	background-size: cover;
-	background-position: center;
 }
 
 .white{
@@ -358,6 +363,7 @@ p.first-text:first-letter {
 	width: 100%;
     padding-bottom: 100%;
     background-size: cover;
+    background-position: center;
 }
 
 .cbp-rfgrid {

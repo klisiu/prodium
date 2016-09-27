@@ -25,15 +25,19 @@
       	<img src="img/slajd3.jpg" >
     	</div>
     	<nav class="main-menu">
-    		<div class="logo"><a href="index.html"><img src="img/prodium_l.png" height="100px"></a></div>
-				<ul class="menu-list">
-					<a href="#slides"><li class="menu-button">Home</li></a>
-					<a href="#o-mnie"><li class="menu-button">O mnie</li></a>
-					<a href="#portfolio"><li class="menu-button">Portfolio</li></a>
-					<a href="#galeria"><li class="menu-button">Galeria</li></a>
-					<a href="#kontakt"><li class="menu-button">Kontakt</li></a>
-				</ul>
-			</nav> 
+    		<div class="logo"><a href="index.html"><img id="logo" src="img/prodium_l.png"></a>
+    		</div>
+    		<div class="menu-mobile">
+    			<img id="mobile-ico" src="img/mobile-menu.png">
+    		</div>
+			<ul class="menu-list" id="menu-mobile-list">
+				<a href="#slides"><li class="menu-button"  >Home</li></a>
+				<a href="#o-mnie"><li class="menu-button"  >O mnie</li></a>
+				<a href="#portfolio"><li class="menu-button"  >Portfolio</li></a>
+				<a href="#galeria"><li class="menu-button"  >Galeria</li></a>
+				<a href="#kontakt"><li class="menu-button" >Kontakt</li></a>
+			</ul>
+		</nav> 
 	    <nav class="slides-navigation">
 	      <a href="#" class="next"><img src="img/forward.png"></a>
 	      <a href="#" class="prev"><img src="img/back.png"></a>
@@ -166,21 +170,21 @@
 	<!-- _____________________ ACCORIONS BACKGROUD ________________ -->
 
 		<section id="portfolio">
-			<button onclick="changeClass1()" class="accordion-background" id="acc-1">
+			<button class="accordion-background" id="acc-1">
 				<h4 class="white">Pierwszy nagłówek</h4>
 				<article class="accordion-hidden" id="aacc-1">
 					<div class="art-space"></div>
 					<p class="white dark-bg">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker</p>
 				</article>
 			</button>
-			<button onclick="changeClass2()" class="accordion-background" id="acc-2">
+			<button class="accordion-background" id="acc-2">
 				<h4 class="white">Drugi nagłówek</h4>
 				<article class="accordion-show" id="aacc-2">
 					<div class="art-space"></div>
 					<p class="white dark-bg">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker</p>
 				</article>
 			</button>
-			<button onclick="changeClass3()" class="accordion-background" id="acc-3">
+			<button class="accordion-background" id="acc-3">
 				<h4 class="white">Trzeci nagłówek</h4>
 				<article class="accordion-hidden" id="aacc-3">
 					<div class="art-space"></div>
