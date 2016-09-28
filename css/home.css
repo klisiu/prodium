@@ -5,7 +5,6 @@
 
 body{
 	background-image: url(../img/1.png);
-	background-position: repeat;
 }
 
 p{
@@ -35,16 +34,26 @@ h5{
 	font-weight: bold;
 }
 
-a:link    { 
-	color: white; 
-}
-
-a:visited { 
-	color: white; 
-}
 a{
 	color: white;
 	text-decoration: none;
+}
+
+.menu-link{
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	display: block;
+}
+
+.menu-link:hover {
+	color: black;
+	background: white;
+	transition: all 0.5s;
+}
+
+.menu-link:link    { 
+	color: white; 
 }
 
 .getborder{
@@ -96,13 +105,6 @@ a{
 	border: 1px white solid;
 	color: white;
 	display: inline-block;
-	padding: 5px;
-}
-
-.menu-button:hover{
-	color: black;
-	background: white;
-	transition: all 0.5s;
 }
 
 #content-wrapper{
@@ -244,6 +246,7 @@ p.first-text:first-letter {
 	cursor: pointer;
     background-size: cover;
     background-position: center;
+    text-align: center;
 }
 
 .accordion-show{
@@ -502,7 +505,6 @@ p.first-text:first-letter {
 	padding: 30px 0px 20px 0px;
 	background-color: #000000;
 	background-image: url(../img/1.png);
-	background-position: repeat;
 }
 
 .socialmedia{
@@ -538,11 +540,18 @@ p.first-text:first-letter {
     line-height: 1.4em;
 }
 
+.ft-menu a:hover{
+	color: grey;
+}
+
 .ft-gallery{
 	width: 33.3333%;
 	padding: 5px;
 	float: left;
+}
 
+.ft-gallery img{
+	max-width: 100%;
 }
 
 .ft-contact{
